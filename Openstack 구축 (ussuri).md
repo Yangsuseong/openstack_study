@@ -12,7 +12,7 @@
 ```vim
 # Master (1U CPU server)
 eth0 : 100.100.0.30/24
-eth1 : x (오픈스택 인스턴스 게이트웨이로 사용 100.100.0.31)
+eth1 : x (neutron external interface로 사용)
 internal : 120.0.0.100/24
 
 # gpu-1 (Titan black server)
