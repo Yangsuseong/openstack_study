@@ -8,13 +8,13 @@
 * SSH Port = 22
 * 계정정보
 	* ID : miruware  (Sudo User)
-	* PW : miruware!
+	* PW : miruware! 
 
 ## 서버 정보
 ```vim
 # ost-master (VM)
 eth0 : 200.200.0.11/24
-eth1 : x (오픈스택 인스턴스 게이트웨이로 사용 100.100.0.32)
+eth1 : x (neutron external interface로 사용)
 internal : 50.50.0.11/24
 
 # node1
